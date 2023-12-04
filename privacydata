@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Adoption Website Privacy Policy</title>
+</head>
+<body>
+
+  <h1>Animal Adoption Website Privacy Policy</h1>
+
+  <script>
+    const privacyPolicyData = {
+      "title": "Animal Adoption Website Privacy Policy",
+      "last_updated": "2023-12-03",
+      "sections": [
+        {
+          "section_title": "Introduction",
+          "content": [
+            "Welcome to our Animal Adoption Website Privacy Policy. This policy outlines the types of personal information we collect, how it is used, and your rights regarding your data. This Privacy Policy is based upon the Canadian Standards Association (CSA) Model Code and reflects as well the requirements of applicable legislation."
+          ]
+        },
+        {
+          "section_title": "Information We Collect",
+          "content": [
+            "We collect the following types of information:",
+            "- Personal Information: Name, email address, phone number, address, and other details provided during the adoption process.",
+            "- Non-personal Information: Browser type, IP address, device information, and website usage data.",
+            "Personal information gathered by the adoption center will be treated with respect. We are responsible for all personal information in our possession."
+          ]
+        },
+        {
+          "section_title": "How We Use Your Information",
+          "content": [
+            "We use your information for the following purposes:",
+            "- Facilitate the adoption process and maintain adoption records.",
+            "- Send important updates, newsletters, and information related to animal care.",
+            "- Improve our website's functionality and user experience.",
+            "- Ensure the security and integrity of our website.",
+            "Our staff are authorized to access personal information based only on their need to deal with the information for the reasons for which it was obtained. Safeguards are in place and continue to be enhanced to ensure that information is not disclosed or shared more widely than is necessary to achieve the purpose for which it was gathered. We also take measures to ensure the integrity of this information is maintained. We collect, use and disclose personal information only for purposes that a reasonable person would consider appropriate in light of the circumstances. We routinely offer individuals we deal with the opportunity to opt not to have their information shared for purposes beyond those for which it was explicitly collected."
+          ]
+        },
+        {
+          "section_title": "Data Sharing",
+          "content": [
+            "We do not sell, trade, or rent your personal information to third parties. However, we may share information with:",
+            "- Animal shelters and organizations involved in the adoption process.",
+            "- Service providers who assist in website operations, such as hosting and analytics.",
+            "We may share name and address information of donors with like-minded organizations, only after you have had an opportunity to decline. This process of trading information with other like-minded organizations is common and an important way for us to solicit new funds to help our work continue."
+          ]
+        },
+        {
+          "section_title": "Your Rights",
+          "content": [
+            "You have the right to:",
+            "- Access, correct, or delete your personal information.",
+            "- Opt-out of receiving communications from us.",
+            "- Request the removal of your adoption records upon request."
+          ]
+        },
+        {
+          "section_title": "Cookies and Tracking Technologies",
+          "content": [
+            "We use cookies and similar technologies to enhance your browsing experience and collect information about your interactions with our website."
+          ]
+        },
+        {
+          "section_title": "Security Measures",
+          "content": [
+            "We implement security measures to protect your information, but no method of transmission over the internet is 100% secure. Please take necessary precautions when sharing personal information online. THS will keep personal information as accurate, complete and current as is necessary for the purposes for which it is to be used. We will protect personal information with security safeguards appropriate to the sensitivity of the information."
+          ]
+        },
+        {
+          "section_title": "Changes to this Privacy Policy",
+          "content": [
+            "We reserve the right to update this privacy policy. Any changes will be effective immediately upon posting on the website."
+          ]
+        },
+        {
+          "section_title": "Contact Us",
+          "content": [
+            "If you have any questions about this Privacy Policy or wish to review, verify, obtain a copy, update or correct your personal information or if you wish to deposit a written comment in your file or a request to delete such information, please visit our Contact us page."
+          ]
+        }
+      ]
+    };
+
+    console.log(privacyPolicyData);
+  </script>
+
+</body>
+</html>
