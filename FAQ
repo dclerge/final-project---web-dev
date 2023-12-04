@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Adoption FAQ</title>
+</head>
+<body>
+
+  <h1>Animal Adoption FAQ</h1>
+
+  <ul id="faqList"></ul>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const faqData = {
+        "faq": [
+          {
+            "question": "What is the process for adopting an animal?",
+            "answer": "To adopt an animal, you can start by browsing our available pets on the website. Once you find a pet you are interested in, you can fill out an adoption application. Our team will review your application, and if approved, you can schedule a meet-and-greet with the pet. If everything goes well, you can finalize the adoption process."
+          },
+          {
+            "question": "What are the adoption fees?",
+            "answer": "Adoption fees vary depending on the type of animal and other factors. The fees typically cover vaccinations, spaying/neutering, and other medical expenses. You can find detailed information about adoption fees on our Adoption Fees page."
+          },
+          {
+            "question": "What are the requirements to adopt?",
+            "answer": "We have three basic requirements to be eligible to adopt from our center. First, you must provide us with government-issued ID, containing proof of address (e.g. driver's license). The ID must not be expired. Secondly, all primary caregivers for potential adopted pets must be present at all adoption meetings, including the finalization meeting. Lastly, if you are adopting a dog and presently have a dog in your home, we will coordinate a dog-dog meet and greet. This process ensures the best possible outcome for the adaptability of your new pet and home life."
+          },
+          {
+            "question": "Are the animals up-to-date on vaccinations?",
+            "answer": "Yes, all our animals receive necessary vaccinations and veterinary care before they are available for adoption. You will receive information about the pet's medical history and vaccinations at the time of adoption."
+          },
+          {
+            "question": "What if the adoption doesn't work out?",
+            "answer": "We understand that sometimes adoptions may not work out as planned. If you face challenges with your new pet, please contact us immediately. We provide support and may offer guidance or resources to help ensure a successful adoption. In certain cases, we may accept the animal back into our care."
+          },
+          {
+            "question": "Can I visit the animals before deciding to adopt?",
+            "answer": "Absolutely! We encourage potential adopters to visit our facility and spend time with our furry friends! You can schedule a visit or attend our adoption events to interact with the pets and find the one that's a purrfect match."
+          },
+          {
+            "question": "Do you have a return policy?",
+            "answer": "Yes, we have a return policy in place. If you find yourself unable to care for the adopted pet, we request that you contact us immediately. We will work with you to facilitate the return of the animal to our facility and may assist in finding a more suitable home."
+          },
+          {
+            "question": "How can I support the animal adoption center?",
+            "answer": "There are several ways to support our animal adoption center. You can make a donation, volunteer your time, or participate in fundraising events. Additionally, spreading the word about our organization and the importance of animal adoption helps us reach more potential adopters."
+          }
+        ]
+      };
+
+      const faqList = document.getElementById('faqList');
+
+      faqData.faq.forEach(faq => {
+        const listItem = document.createElement('li');
+        listItem.innerHTML = `<strong>${faq.question}</strong><br>${faq.answer}`;
+        faqList.appendChild(listItem);
+      });
+    });
+  </script>
+
+</body>
+</html>
